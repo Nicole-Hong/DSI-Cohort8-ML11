@@ -28,11 +28,15 @@ By predicting delay duration and identifying high-delay incidents, this project 
 **Time Range:** 2022 – 2025  
 
 ### Key Variables
+
+#### Feature Variables
 - `Min Delay` (Delay duration in minutes)
 - Time (Date, Hour)
 - Station
 - Line
 - Direction
+
+#### Target Variable
 - Cause of delay
 
 ---
