@@ -7,7 +7,15 @@
 This project analyzes TTC subway delay data (2022–2025) to predict delay duration and identify high-delay incidents.  
 
 Our goal is to improve transit reliability by building predictive models that support TTC operations, service planning, and data-driven decision-making.
+---
 
+## Intended Audience
+
+This project is designed for:
+
+- Operational Managers  
+- Team Leads  
+- Service Planning Teams  
 ---
 
 ## Business Motivation
@@ -49,15 +57,51 @@ By predicting delay duration and identifying high-delay incidents, this project 
 
 ---
 
+## Data Cleaning & Preprocessing Strategy
+
+### Handling Missing Values
+- “Vehicle” column contains missing values
+- “Bound” column frequently contains missing or placeholder values (e.g., “XXXXX”)
+- Strategy:
+  - Impute where appropriate
+  - Remove unusable rows
+  - Treat missing values as a separate category if necessary
+
+### Data Consistency Issues
+- Spelling errors
+- Inconsistent naming (e.g., line names)
+- Strategy:
+  - Standardize categorical values
+  - Clean and normalize text fields
+
+### Outlier Handling
+- Extreme delays exist (e.g., 716 minutes)
+- Remove delays greater than 60 minutes to focus on realistic operational scenarios
+
+### Modeling Focus
+- Focus on delays greater than 5 minutes
+- Emphasis on origin station and direction
+
+---
+
 ## Analysis Approach
 
 ### Classification (Primary ML Focus)
-**Objective:** Predict high-delay incidents (> 5 minutes)
-
-- Binary target creation
-- Address class imbalance
+**Objective:** TBC
 - Models:
    TBC
+
+---
+
+## Risks & Uncertainties
+
+- Missing or inconsistent categorical data
+- Potential bias from removing extreme outliers
+- Bound column largely missing
+
+Mitigation:
+- Robust validation strategy
+- Clear documentation of assumptions
 
 ---
 
