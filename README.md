@@ -28,20 +28,24 @@ By predicting delay duration and identifying high-delay incidents, this project 
 **Time Range:** 2022 – 2025  
 
 ### Key Variables
+
+#### Feature Variables
 - `Min Delay` (Delay duration in minutes)
-- Time (Date, Hour)
+- Month / Year / Seasons (Derived from date)
+- Different Times of the Day (Derived from time)
 - Station
 - Line
 - Direction
-- Cause of delay
+
+#### Target Variable
+- Cause of Delay
 
 ---
 
 ## Business Questions
 
-1. Can we accurately predict the delay duration (`Min Delay`)?
-2. Can we classify whether a delay will exceed 10 minutes (high-delay incident)?
-3. What factors contribute most to significant delays?
+1. What factors contribute most to significant delays?
+2. Can we classify whether a delay will exceed 5 minutes (high-delay incident)?
 
 ---
 
@@ -65,9 +69,10 @@ By predicting delay duration and identifying high-delay incidents, this project 
 | Date | Task | Owner |
 |------|------|-------|
 | 2021–2025 | Reviewing Data | All |
+| Thursday, Feb 26 | Document Business Objectives / Project Plan | All |
 | Saturday, Feb 28 | Data Cleaning | Wendy |
-| Monday, March 2 | Exploratory Data Analysis (EDA) | Nicole H |
-| Tuesday, March 3 | Feature Engineering / EDA | Ivy |
+| Monday, March 2 | EDA) / Feature Engineering| Nicole H |
+| Tuesday, March 3 | EDA  / Feature Engineering| Ivy |
 | TBD | ML Development (Train/Test) | All |
 | TBD | Model Selection | All |
 | TBD | GitHub Documentation | Nicole Y / Ivy |
