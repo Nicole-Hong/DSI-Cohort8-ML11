@@ -31,21 +31,21 @@ By predicting delay duration and identifying high-delay incidents, this project 
 
 #### Feature Variables
 - `Min Delay` (Delay duration in minutes)
-- Time (Date, Hour)
+- Month / Year / Seasons (Derived from date)
+- Different Times of the Day (Derived from time)
 - Station
 - Line
 - Direction
 
 #### Target Variable
-- Cause of delay
+- Cause of Delay
 
 ---
 
 ## Business Questions
 
-1. Can we accurately predict the delay duration (`Min Delay`)?
-2. Can we classify whether a delay will exceed 10 minutes (high-delay incident)?
-3. What factors contribute most to significant delays?
+1. What factors contribute most to significant delays?
+2. Can we classify whether a delay will exceed 5 minutes (high-delay incident)?
 
 ---
 
