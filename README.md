@@ -52,7 +52,7 @@ By predicting delay duration and identifying high-delay incidents, this project 
 ## Analysis Approach
 
 ### Classification (Primary ML Focus)
-**Objective:** Predict high-delay incidents (>10 minutes)
+**Objective:** Predict high-delay incidents (> 5 minutes)
 
 - Binary target creation
 - Address class imbalance
