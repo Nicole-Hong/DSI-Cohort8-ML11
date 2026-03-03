@@ -120,7 +120,7 @@ Mitigation:
 | Thursday, Feb 26 | Document Business Objectives / Project Plan | All |
 | Saturday, Feb 28 | Data Cleaning | Wendy |
 | Monday, March 2 | Data Preprocessing - Time & Day Categories | Nicole H |
-| Monday, March 2 | EDA) / Feature Engineering| Nicole H |
+| Monday, March 2 | EDA / Feature Engineering| Nicole H |
 | Tuesday, March 3 | EDA  / Feature Engineering| Ivy |
 | TBD | ML Development (Train/Test) | All |
 | TBD | Model Selection | All |
